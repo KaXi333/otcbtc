@@ -1,0 +1,407 @@
+.tradeFmcBox {
+  background-color: #f5f5f5;
+  margin-top:1rem;
+  padding-top:.2rem; 
+  padding-bottom: .6rem;
+}
+.tradeBox{
+  background-color: #fff;
+  border-radius: .08rem;
+  margin: 0 .2rem;
+  padding-bottom: .4rem;
+}
+/*场外交易头部*/
+.tradeWay{
+  height:.9rem;
+  border-bottom: 1px solid #f5f5f5;
+  position: relative;
+  overflow: hidden;
+  font-size: .36rem;
+  color: #1a1a1a;
+  line-height: .9rem;
+}
+.tradeWay img{
+  width: .39rem;
+  height:.28rem;
+  position: absolute;
+  top:0;
+  bottom:0;
+  margin:auto;
+  left:1.17rem;
+}
+.tradeCNY{
+  float: left;
+  margin-left: .2rem;
+}
+.tradeFMC{
+  float: left;
+  margin-left: .8rem;
+}
+/*场外交易价格样式*/
+.tradePriceBox{
+  overflow: hidden;
+  margin:0 .2rem;
+}
+.tradePrice{
+  font-size: .28rem;
+  float: left;
+  width: 50%;
+}
+.tradePrice h3{
+  margin-top: .25rem;
+  margin-bottom: .25rem;
+  color: #999;
+}
+.tradePrice p{
+  color: #df8e0f;
+}
+.tradePriceR{
+  color: #666 !important;
+}
+.dayTimeBox{
+  font-size: .28rem;
+  color: #999;
+  overflow: hidden;
+}
+.dayTimeBox p{
+  float: left;
+  width: 1rem;
+  height:.6rem;
+  border-radius: .08rem;
+  border:1px solid #999;
+  text-align: center;
+  line-height: .6rem;
+  margin-left: .3rem;
+}
+.dayTimeBox_active{
+  background-color: #df8e0f;
+  color: #fff;
+  border:none !important;
+}
+
+/*最高价格*/
+.heightPrice{
+  margin:.2rem;
+  font-size: .28rem;
+  color: #181818;
+}
+.heightPriceBorder{
+  background-color: #fff;
+  margin-top: .1rem;
+}
+.heightPrice h2{
+  height:.9rem;
+  line-height: .9rem;
+  padding-left:.34rem;
+  position: relative;
+  border-bottom: 1px solid #f5f5f5;
+}
+.heightPrice h2 img{
+  width: .04rem;
+  height:.28rem;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left:.2rem;
+  margin:auto;
+}
+.heightPriceUserBox{
+  overflow: hidden;
+  padding:0 .2rem;
+}
+.heightPriceUser{
+  float: left;
+}
+.heightPriceUser h3{
+  padding-top:.25rem;
+  padding-bottom:.2rem
+}
+.heightPriceUser p{
+  color: #999;
+}
+.heightPriceUserR{
+  float: right;
+}
+.heightPriceUserR h3{
+  font-size: .36rem;
+}
+.buyBtn {
+  overflow: hidden;
+}
+.buyBtn p{
+  width: 2.2rem;
+  height:.6rem;
+  border-radius: .08rem;
+  font-size: .28rem;
+  background-color: #df8e0f;
+  text-align: center;
+  line-height: .6rem;
+  color: #fff;
+  float: right;
+  margin-right: .2rem;
+  margin-top:.35rem;
+  margin-bottom:.4rem; 
+}
+/*他人出售*/
+.otherSaleBox{
+  margin:0 .2rem;
+}
+.otherSaleTit{
+  font-size: .28rem;
+  overflow: hidden;
+  height: .9rem;
+  background-color: #fff;
+}
+.otherSaleTit h2{
+  float: left;
+  line-height: .9rem;
+  position: relative;
+  padding-left: .34rem;
+}
+.otherSaleTit img{
+  width: .04rem;
+  height:.28rem;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  margin:auto;
+  left:.2rem;
+}
+.otherSaleTit p{
+  float: right;
+  line-height: .6rem;
+  text-align: center;
+  width: 1.76rem;
+  height:.6rem;
+  margin-top:.15rem;
+  margin-right: .2rem;
+  border-radius: .08rem;
+}
+.otherSaleMinPrice{
+ 
+}
+.otherSaleMaxPrice{
+  border:1px solid #999;
+  color: #999;
+}
+.saleActive{
+  border:1px solid #df8e0f;
+  color: #df8e0f;
+}
+/*他人出售用户信息*/
+.otherSaleUserBox{
+  overflow: hidden;
+  margin-top: .1rem;
+  font-size: .28rem;
+  background-color: #fff;
+  border-radius: .08rem;
+}
+.otherSaleUserLeft{
+  float: left;
+  width: 2.6rem;
+}
+.otherSaleUserLeft h3{
+  font-size: .28rem;
+  color: #181818;
+  position: relative;
+  height:.6rem;
+  padding-left: 1rem;
+  line-height: .6rem;
+  margin-top: .3rem;
+}
+.otherSaleUserLeft h3 img{
+  width: .6rem;
+  height:.6rem;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  margin:auto;
+  left:.2rem;
+}
+.otherSaleUserLeft p{
+  margin-top: .14rem;
+  margin-left: .2rem;
+  color: #1a1a1a;
+}
+.credit{
+  font-size: .26rem;
+  color: #999 !important;
+  margin-top: .20rem !important;
+}
+.payImgBox{
+  position: relative;
+  width: 100%;
+  height:.27rem;
+  margin-top: .16rem;
+}
+.payImgBox img{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  margin:auto;
+}
+.wxImg{
+  width: .31rem;
+  height:.26rem;
+  left:.2rem;
+}
+.zfbImg{
+  width: .26rem;
+  height:.27rem;
+  left:.71rem;
+}
+.cardImg{
+  width: .36rem;
+  height:.25rem;
+  left:1.17rem;
+}
+.visaImg{
+  width: .27rem;
+  height:.27rem;
+  position: absolute;
+  left:1.73rem;
+}
+.otherSaleBuyBtn{
+  width: 1.76rem;
+  height:.6rem;
+  background-color: #df8e0f;
+  text-align: center;
+  line-height: .6rem;
+  color: #fff;
+  border-radius: .08rem;
+  margin:.3rem 0 .2rem .42rem;
+}
+/*出售数量，价格*/
+.otherSaleUserRight{
+  float: left;
+  width: 4.3rem;
+  background-color: #f5f5f5;
+  border-radius: .08rem;
+  margin:.2rem 0;
+  height:3.37rem;
+  padding-top: .24rem;
+  color: #999;
+}
+.otherSaleDetail{
+  margin-bottom: .34rem;
+}
+.otherSaleDetail h3{
+  font-size: .26rem;
+  color: #999;
+  margin-left: .32rem;
+}
+.otherSaleDetail p{
+  margin-left: .32rem;
+  margin-top: .14rem;
+  font-size: .28rem;
+}
+.otherSaleDetail p span{
+ color: #1a1a1a;
+}
+/*分页*/
+.paginationbox{
+  padding-top: .3rem;
+  padding-bottom: .6rem;
+}
+.pagination{
+  height:.5rem;
+  font-size: .36rem;
+  color: #1c1c1c;
+  margin-left:2.3rem;
+}
+.pagination li{
+  float: left;
+  width: .5rem;
+  height:.5rem;
+  text-align: center;
+  line-height: .5rem;
+  border-radius: 50%;
+  position: relative;
+  margin-right: .1rem;
+}
+.pagination li img{
+  width: .2rem;
+  height:.34rem;
+  position: absolute;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:auto;
+}
+.paginationActive{
+  background-color: #df8e0f;
+  color: #fff;
+}
+/*最近交易*/
+.recentTradeBox{
+  margin:0 .2rem;
+  background-color: #fff;
+  border-radius: .08rem;
+  padding-bottom: .3rem;
+}
+.recentTradeTit{
+  height:.9rem;
+  overflow: hidden;
+}
+.recentTradeTit p{
+  float: left;
+  font-size: .26rem;
+  color: #999;
+  line-height: .9rem;
+}
+.recentTradeTit p:nth-child(1){
+  margin-left: .2rem;
+}
+.recentTradeTit p:nth-child(2){
+  margin-left: 2.04rem;
+}
+.recentTradeTit p:nth-child(3){
+  float: right;
+  margin-right: .2rem;
+}
+.recentTradeDec{
+  font-size: .26rem;
+  color: #1a1a1a;
+  overflow: hidden;
+  margin-bottom: .14rem;
+}
+.recentTradeDec p{
+  float: right;
+  position: relative;
+  height:.28rem;
+  line-height: .28rem;
+}
+.recentTradeDec p img{
+  width: .33rem;
+  height:.14rem;
+  position: absolute;
+  right:0;
+  top:0;
+  bottom:0;
+  margin:auto;
+}
+.recentTradeDec p:nth-child(1){
+  float: left;
+  margin-left: .2rem;
+}
+.recentTradeDec p:nth-child(2){
+  margin-right: .2rem;
+}
+.recentTradeDec p:nth-child(3){
+  margin-right: 1.06rem;
+}
+.recentTradeDec p:nth-child(4){
+  margin-right: 1rem;
+}
+
+.problemBox{
+  margin-top: .2rem;
+}
+.problemTit{
+  padding-left: .59rem;
+}
+.problemTit img{
+  width: .29rem;
+  height:.28rem;
+}

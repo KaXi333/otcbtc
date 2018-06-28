@@ -14,13 +14,12 @@ module.exports = {
     ]
   },
   css: [
-    '~/assets/stylus/main.styl',
-    '~/assets/stylus/reset.styl'
+    '~/assets/stylus/Mediaquery.css',
+    '~/assets/stylus/common.css'
   ],
   plugins: [
     '~/plugins/element-ui',
-    '~/plugins/bootstrap-vue',
-    '~/plugins/main-plugin'
+    '~/plugins/highcharts'
   ],
   router: {
     middleware: 'auth'
